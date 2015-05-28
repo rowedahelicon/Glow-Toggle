@@ -38,7 +38,6 @@ public Event_RoundStart(Handle:hEvent, const String:szEventName[], bool:bDontBro
 			SetEntProp(iCartEnity, Prop_Data, "m_hGlowEnt", 0);
 		}
 	}
-return Plugin_Handled;
 }
 
 public Event_Flag(Handle:event, const String:name[], bool:dontBroadcast)
@@ -66,5 +65,4 @@ public Event_Flag(Handle:event, const String:name[], bool:dontBroadcast)
 		}
 	
 	}
-return Plugin_Handled;
 }
